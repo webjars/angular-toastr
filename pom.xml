@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-toastr</artifactId>
-    <version>0.4.1-SNAPSHOT</version>
+    <version>0.4.1</version>
     <name>Angular Toastr</name>
     <description>WebJar for Angular Toastr</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/angular-toastr</url>
         <connection>scm:git:https://github.com/webjars/angular-toastr.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-toastr.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-toastr-0.4.1</tag>
     </scm>
     
     <dependencies>
@@ -76,11 +76,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/angular-toastr.css" dest="${destDir}"/>
-                                <get src="${upstream.url}/angular-toastr.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/angular-toastr.min.css" dest="${destDir}"/>
-                                <get src="${upstream.url}/angular-toastr.min.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/angular-toastr.css" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-toastr.js" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-toastr.min.css" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-toastr.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
