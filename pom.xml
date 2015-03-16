@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-toastr</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.2-1-SNAPSHOT</version>
     <name>Angular Toastr</name>
     <description>WebJar for Angular Toastr</description>
     <url>http://webjars.org</url>
@@ -81,6 +81,8 @@
                                 <get src="${upstream.url}/angular-toastr.js" dest="${destDir}" />
                                 <get src="${upstream.url}/angular-toastr.min.css" dest="${destDir}" />
                                 <get src="${upstream.url}/angular-toastr.min.js" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-toastr.tpls.js" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-toastr.tpls.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
